@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "735832073650",
+    "firebase_url": "https://doorunlock-1564652969480.firebaseio.com",
+    "project_id": "doorunlock-1564652969480",
+    "storage_bucket": "doorunlock-1564652969480.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:735832073650:android:5876fb1d750c8b09",
+        "android_client_info": {
+          "package_name": "com.example.android.door_unlock"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "735832073650-rufr77arg1a14s4b1u4od43lk5l6hb6e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.door_unlock",
+            "certificate_hash": "8370be6ab25cfefc56800f5ac981e666bb156a19"
+          }
+        },
+        {
+          "client_id": "735832073650-8com1lg3rmh3gji6ps3krgekl6kfa1q9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDk50SotrwZ87XY8XHDnUAJtq0ITsaWMaE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "735832073650-8com1lg3rmh3gji6ps3krgekl6kfa1q9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

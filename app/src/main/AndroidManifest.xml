@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.door_unlock">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+
+    <uses-feature
+        android:name="android.hardware.fingerprint"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".pin.ReenterActivity"></activity>
+        <activity android:name=".pin.FirstActivity" />
+        <activity android:name=".Screens.Lock_Door" />
+        <activity android:name=".fingerprint.Fingerprint" />
+        <activity android:name=".Screens.MachineActivated" />
+        <activity android:name=".Screens.Form_Fill_Up" />
+        <activity android:name=".Screens.Create_Account_Or_Google" />
+        <activity android:name=".Screens.Sign_In" />
+        <activity android:name=".Screens.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

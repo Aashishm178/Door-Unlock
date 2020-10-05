@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient_dark"
+    android:layout_height="match_parent"
+    tools:context=".Screens.Create_Account_Or_Google">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+       <com.google.android.gms.common.SignInButton
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/sign_in_button"
+           android:layout_centerHorizontal="true"
+           android:layout_centerVertical="true">
+       </com.google.android.gms.common.SignInButton>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Account"
+            android:fontFamily="Open Sans"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/sign_in_button"
+            android:textColor="#2E2E2E"
+            android:padding="15dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/round_button"
+            android:id="@+id/create_account"/>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Door Unlock</string>
+    <string name="welcome_first_page">WELCOME</string>
+    <string name="continue_first_page">Continue</string>
+    <string name="email_address_hint">Email Address</string>
+    <string name="password_sign_in">Password</string>
+    <string name="login_sign_in">LOGIN</string>
+    <string name="no_account_yet">No Account Yet? Create One</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="user_name">Username</string>
+    <string name="pass_word">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="node_mcu_number">NODE MCU</string>
+    <string name="machine_code">Machine Code</string>
+    <string name="submit_button">SUBMIT</string>
+    <string name="fingerprint_instructions">Place your fingertip on the sensor</string>
+</resources>

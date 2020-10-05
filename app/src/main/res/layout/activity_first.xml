@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Screens.MainActivity"
+    android:orientation="vertical"
+    android:weightSum="2"
+    android:background="@drawable/gradient_dark">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="150dp"
+        android:layout_weight="1"
+        android:src="@drawable/white_lock"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="6"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ENTER PIN"
+            android:fontFamily="Open Sans"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:id="@+id/enter_pin"/>
+
+        <EditText
+            android:id="@+id/edit_text_first_screen"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:cursorVisible="false"
+            android:background="@null"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:inputType="textPassword"
+            android:layout_weight="1"
+            android:textSize="35sp"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="3"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:fontFamily="Open Sans"
+                android:maxLength="6"
+                android:id="@+id/number_1"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:textSize="40sp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:fontFamily="Open Sans"
+                android:id="@+id/number_2"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:textSize="40sp"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3"
+                android:fontFamily="Open Sans"
+                android:id="@+id/number_3"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:textSize="40sp"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="3"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4"
+                android:fontFamily="Open Sans"
+                android:id="@+id/number_4"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:textSize="40sp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:fontFamily="Open Sans"
+                android:id="@+id/number_5"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:textSize="40sp"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6"
+                android:fontFamily="Open Sans"
+                android:id="@+id/number_6"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:textSize="40sp"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="3"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7"
+                android:fontFamily="Open Sans"
+                android:id="@+id/number_7"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:textSize="40sp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8"
+                android:fontFamily="Open Sans"
+                android:id="@+id/number_8"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:textSize="40sp"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9"
+                android:fontFamily="Open Sans"
+                android:id="@+id/number_9"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:textSize="40sp"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="3"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Delete"
+                android:fontFamily="Open Sans"
+                android:id="@+id/delete"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="0"
+                android:fontFamily="Open Sans"
+                android:id="@+id/number_0"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="40sp" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="OK"
+                android:fontFamily="Open Sans"
+                android:id="@+id/ok"
+                android:textSize="25sp"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

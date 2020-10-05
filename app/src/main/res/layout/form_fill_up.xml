@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:paddingTop="40dp"
+    android:paddingStart="2dp"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_dark"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/first_name_form_fill_up"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_weight="1"
+        android:backgroundTint="#2E2E2E"
+        android:hint="@string/first_name"
+        android:fontFamily="Open Sans"
+        android:textColorHint="#2E2E2E"
+        android:textColor="#2E2E2E"
+        android:inputType="text"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/last_name_form_fill_up"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/last_name_form_fill_up"
+        android:layout_width="0dp"
+        android:fontFamily="Open Sans"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/last_name"
+        android:textColorHint="#2E2E2E"
+        android:inputType="text"
+        android:backgroundTint="#2E2E2E"
+        android:textColor="#2E2E2E"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/first_name_form_fill_up"
+        app:layout_constraintTop_toTopOf="@+id/first_name_form_fill_up"
+        tools:ignore="Autofill" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/user_name"
+        android:fontFamily="Open Sans"
+        android:textColor="#2E2E2E"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/user_name_form_fill_up"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/user_name_form_fill_up"
+        android:layout_width="220dp"
+        android:fontFamily="Open Sans"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="8dp"
+        android:inputType="text"
+        android:backgroundTint="#2E2E2E"
+        android:textColor="#2E2E2E"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.804"
+        app:layout_constraintStart_toStartOf="@+id/last_name_form_fill_up"
+        app:layout_constraintTop_toBottomOf="@+id/last_name_form_fill_up"
+        tools:ignore="Autofill" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/pass_word"
+        android:fontFamily="Open Sans"
+        android:textColor="#2E2E2E"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/password_form_fill_up"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/password_form_fill_up"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:inputType="textPassword"
+        android:backgroundTint="#2E2E2E"
+        android:textColor="#2E2E2E"
+        android:textSize="20sp"
+        android:fontFamily="Open Sans"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_name_form_fill_up"
+        tools:ignore="Autofill" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/confirm_password"
+        android:fontFamily="Open Sans"
+        android:textColor="#2E2E2E"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/reenter_password_form_fill_up"
+        app:layout_constraintStart_toStartOf="@+id/textView3" />
+
+    <EditText
+        android:id="@+id/reenter_password_form_fill_up"
+        android:layout_width="179dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="8dp"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        android:fontFamily="Open Sans"
+        android:backgroundTint="#2E2E2E"
+        android:textColor="#2E2E2E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password_form_fill_up"
+        tools:ignore="Autofill" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/machine_code"
+        android:fontFamily="Open Sans"
+        android:textColor="#2E2E2E"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/machine_code_form_fill_up"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/machine_code_form_fill_up"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="Open Sans"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="4dp"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        android:backgroundTint="#2E2E2E"
+        android:textColor="#2E2E2E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reenter_password_form_fill_up"
+        tools:ignore="Autofill" />
+
+    <Button
+        android:id="@+id/submission_button_form_fill_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:padding="10dp"
+        android:fontFamily="Open Sans"
+        android:text="@string/submit_button"
+        android:background="@drawable/round_button"
+        android:textColor="#2E2E2E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
